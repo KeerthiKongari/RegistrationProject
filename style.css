@@ -12,10 +12,16 @@
 }
 
 .container{
-    background-color: thistle;
+    background-color:darkgray;
     width: 500px;
     margin: 0px 0px 0px 430px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 100px;
+    border-color: black;
     font-size: 18px;
+}
+.label{
+    font-size: 18px;
+    color:white;
+
 }

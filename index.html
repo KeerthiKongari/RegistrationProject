@@ -3,31 +3,31 @@
 <html>
     <body>
     <div>
-    <h1 id="h1">Registration form</h1><br>
+    <h1 id="h1">Registration form</h1>
     </div>
     <div class="container">
         <form class="form">
-           <label for="uname"><b>Username</b></label><br><input type="text" placeholder="Enter Name" name="uname" id="uname" required><br>
-            <label for="umail"><b>Email</b></label><br><input type="email" placeholder="xyz@gmail.com" mail="umail" id="umail" required><br>
-            <label for="story"><b>Address</b></label><br><textarea name="story" id="story"
+           <label for="uname" class="label"><b>Username</b></label><br><input type="text" placeholder="Enter Name" name="uname" id="uname" required><br>
+            <label for="umail" class="label"><b>Email</b></label><br><input type="email" placeholder="xyz@gmail.com" mail="umail" id="umail" required><br>
+            <label for="story" class="label"><b>Address</b></label><br><textarea name="story" id="story"
                   rows="3" cols="20" placeholder="Enter address"></textarea><br>
-            <label><b>Sex</b></label>
-            <input type="radio" name=gender value=Female>Female
-            <input type="radio" name=gender value=Male>Male<br>
-            <label><b>BirthDay</b><label>
+            <label class="label"><b>Sex</b></label>
+            <input type="radio" name=gender value=Female><label class="label">Female</label>
+            <input type="radio" name=gender value=Male><label class="label">Male</label><br>
+            <label class="label"><b>BirthDay</b><label>
             <input type="text" placeholder="DD/MM/YYYY"><br>
-            <label><b>Graduation</b></label>
-               <select>
+            <label class="label"><b>Graduation</b></label>
+               <select >
                    <option value=BE/B.tech>BE/Btech</option>
                    <option value=BCA>BCA</option>
                    <option value=BA>BA</option>
                    <option value=Others>Others</option>
                 </select><br>
-               <label><b>Technologies known</b></label>
-               <input type="checkbox" value=java>java
-               <input type="checkbox" value=C>C
-               <input type="checkbox" value=C++>C++
-               <input type="checkbox" value=javascript>javascript<br>
+               <label class="label"><b>Technologies known</b></label>
+               <input type="checkbox" value=java class="label">java
+               <input type="checkbox" value=C class="label">C
+               <input type="checkbox" value=C++ class="label">C++
+               <input type="checkbox" value=javascript class="label">javascript<br>
                <button type="Submit">Register</button>
                <button type="clear" >Clear</button>
         </form>
