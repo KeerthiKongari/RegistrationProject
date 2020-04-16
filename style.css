@@ -1,14 +1,5 @@
 
-.registerbtn{
-    background-color:#4CAF50;
-    color:white;
-    padding:16px 20px;
-    margin:8px 0;
-    border:;
-    cursor:pointer;
-    width:10%;
-    opacity:0.9;
-}
+
 #h1{
     text-align: center;
 }
@@ -16,7 +7,15 @@
 .headstyle{
     font-family: fantasy;
 }
+.form{
+    margin-left: 50px;
+}
+
 .container{
     background-color: thistle;
-
+    width: 500px;
+    margin: 0px 0px 0px 430px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
 }
