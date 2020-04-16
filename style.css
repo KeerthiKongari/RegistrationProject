@@ -4,20 +4,19 @@
     color:white;
     padding:16px 20px;
     margin:8px 0;
-    border:none;
+    border:;
     cursor:pointer;
     width:10%;
     opacity:0.9;
 }
-.container{
-    padding:16px;
-    background-color: rgb(160, 160, 153);
-    width: 800px;
-    
+#h1{
+    text-align: center;
 }
+
 .headstyle{
     font-family: fantasy;
 }
-.formalign{
-    background-color: whitesmoke;
+.container{
+    background-color: thistle;
+
 }
