@@ -12,12 +12,12 @@
 }
 
 .container{
-    background-color:darkgray;
+    background-color:gray;
     width: 500px;
     margin: 0px 0px 0px 430px;
     padding: 20px;
     border-radius: 100px;
-    border-color: black;
+    border-color: rgb(8, 7, 7);
     font-size: 18px;
 }
 .label{
