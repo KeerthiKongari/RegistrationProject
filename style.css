@@ -1,16 +1,9 @@
-
-
-#h1{
+#heading{
     text-align: center;
-}
-
-.headstyle{
-    font-family: fantasy;
 }
 .form{
     margin-left: 50px;
 }
-
 .container{
     background-color:gray;
     width: 500px;
@@ -23,5 +16,4 @@
 .label{
     font-size: 18px;
     color:white;
-
 }

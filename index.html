@@ -1,36 +1,47 @@
-<link  rel="stylesheet" href="style.css">
 <!DOCTYPE html>
 <html>
+    <head>
+        <link  rel="stylesheet" href="style.css">  
+    </head>
     <body>
-    <div>
-    <h1 id="h1">Registration form</h1>
-    </div>
-    <div class="container">
-        <form class="form">
-           <label for="uname" class="label"><b>Username</b></label><br><input type="text" placeholder="Enter Name" name="uname" id="uname" required><br>
-            <label for="umail" class="label"><b>Email</b></label><br><input type="email" placeholder="xyz@gmail.com" mail="umail" id="umail" required><br>
-            <label for="story" class="label"><b>Address</b></label><br><textarea name="story" id="story"
-                  rows="3" cols="20" placeholder="Enter address"></textarea><br>
-            <label class="label"><b>Sex</b></label>
-            <input type="radio" name=gender value=Female><label class="label">Female</label>
-            <input type="radio" name=gender value=Male><label class="label">Male</label><br>
-            <label class="label"><b>BirthDay</b><label>
-            <input type="date" placeholder="DD/MM/YYYY"><br>
-            <label class="label"><b>Graduation</b></label>
-               <select >
-                   <option value=BE/B.tech>BE/Btech</option>
-                   <option value=BCA>BCA</option>
-                   <option value=BA>BA</option>
-                   <option value=Others>Others</option>
+        <div>
+            <h1 id="heading">Registration form</h1>
+        </div>
+        <div class="container">
+            <form class="form">
+                <label for="userName" class="label"><b>Username</b></label><br>
+                <input type="text" placeholder="Enter Name" name="userName" id="userName" required><br>
+
+                <label for="Email" class="label"><b>Email</b></label><br>
+                <input type="email" placeholder="xyz@gmail.com" name="Email" id="Email" required><br>
+
+                <label for="address" class="label"><b>Address</b></label><br><textarea name="address" id="address"
+                    rows="3" cols="20" placeholder="Enter address"></textarea><br>
+
+                <label class="label"><b>Sex</b></label>
+                <input type="radio" name=gender value=Female><label class="label">Female</label>
+                <input type="radio" name=gender value=Male><label class="label">Male</label><br>
+
+                <label class="label"><b>BirthDay</b><label>
+                <input type="date" placeholder="DD/MM/YYYY"><br>
+
+                <label class="label"><b>Graduation</b></label>
+                <select >
+                    <option value=BE/B.tech>BE/Btech</option>
+                    <option value=BCA>BCA</option>
+                    <option value=BA>BA</option>
+                    <option value=Others>Others</option>
                 </select><br>
-               <label class="label"><b>Technologies known</b></label>
-               <input type="checkbox" value=java class="label">java
-               <input type="checkbox" value=C class="label">C
-               <input type="checkbox" value=C++ class="label">C++
-               <input type="checkbox" value=javascript class="label">javascript<br>
-               <button type="Submit">Register</button>
-               <button type="clear" >Clear</button>
-        </form>
-    </div>
+
+                <label class="label"><b>Technologies known</b></label>
+                <input type="checkbox" value=java class="label">java
+                <input type="checkbox" value=C class="label">C
+                <input type="checkbox" value=C++ class="label">C++
+                <input type="checkbox" value=javascript class="label">javascript<br>
+
+                <button type="Submit">Register</button>
+                <button type="clear" >Clear</button>
+            </form>
+        </div>
     </body>
 </html>
